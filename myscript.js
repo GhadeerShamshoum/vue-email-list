@@ -3,11 +3,7 @@ const app = new Vue({
     data: {
         email:[]
     },
-    mounted: function(){
-        axios.catch((error) => {
-            console.log(error);
-        })
-    },
+   
     
     methods: {
         generateEmail: function(){
@@ -17,8 +13,7 @@ const app = new Vue({
                         console.log(response.data.response)
                         this.email.push(response.data.response)
 
-                    })
-                    
+                    })          
             }                 
         }
     }

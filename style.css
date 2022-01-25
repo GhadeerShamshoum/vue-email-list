@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(110, 110, 245);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    width: 500px;
+    background-color: rgb(149, 187, 243);
+}
+
+button{
+    width: 120px;
+    height: 50px;
+    margin: 30px;
+
+}
